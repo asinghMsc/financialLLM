@@ -1,1 +1,3 @@
-BetterByAI Financial LLM V1
+Financial LLM V1
+
+More details coming soon.
