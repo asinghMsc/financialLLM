@@ -7,11 +7,9 @@ Accurately categorising expenses is crucial for financial tracking and analysis.
 Example:
 
 === Prompt ===
-
 Uber | Private taxi for sharon | £89.00 | Mastercard | 2025-03-03
 
 === Predicted Category ===
-
 Transportation
 
 
@@ -20,26 +18,17 @@ The core of this classifier is a transformer model. It's trained on a dataset of
 
 The model processes an input string containing all these details (e.g., "Uber | Private taxi for sharon | £89.00 | Mastercard | 2025-03-03") and outputs the most probable expense category (e.g., "Transportation").
 
-Getting Started
 (Note: The training and data preparation steps were performed outside of the provided Colab notebook for efficiency and are not directly included in the public repository for this version.)
 
-Prerequisites
-Python 3.x
-torch
-numpy
-pandas
-tiktoken
-You can install the necessary Python packages using pip:
-
-Bash
-
-pip install torch numpy pandas tiktoken
-Training (Conceptual)
+Training
 The model was trained using a dataset of expense records, where each record consisted of a "prompt" (the expense details) and a "target" (the expense category). The training process involved:
 
 Data Preparation: Transforming raw expense data into a format suitable for the model, including tokenisation and numerical encoding.
+
 Model Architecture: A custom transformer model was built, incorporating self-attention mechanisms and feed-forward networks to learn complex relationships within the data.
+
 Training Loop: Iteratively feeding the model training data, calculating the loss between predicted and actual categories, and updating the model's parameters using an optimiser. The model's performance was monitored on a separate validation set, and the best performing model checkpoint was saved.
+
 Inference
 While the training was conducted on a different environment, the trained model can be used for inference. An example of an inference output is provided above.
 
