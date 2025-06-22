@@ -6,7 +6,7 @@ Accurately categorising expenses is crucial for financial tracking and analysis.
 
 Example:
 
-=== Prompt ===
+=== Prompt === <br>
 Uber | Private taxi for sharon | £89.00 | Mastercard | 2025-03-03
 
 === Predicted Category === <br>
