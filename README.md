@@ -24,7 +24,7 @@ The model processes an input string containing all these details (e.g., "Uber | 
 (Note: The data preparation and inference steps were performed outside of the provided Colab notebook for efficiency and are not directly included in the public repository for this version.)
 
 
-Training (Conceptual) <br>
+Training <br>
 The model was trained using a dataset of expense records, where each record consisted of a "prompt" (the expense details) and a "target" (the expense category). The training process involved<br>
 
 Data Preparation: <br>
