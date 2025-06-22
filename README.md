@@ -24,14 +24,18 @@ The model processes an input string containing all these details (e.g., "Uber | 
 (Note: The training and data preparation steps were performed outside of the provided Colab notebook for efficiency and are not directly included in the public repository for this version.)
 
 
-Training (Conceptual)
+Training (Conceptual) <br>
 The model was trained using a dataset of expense records, where each record consisted of a "prompt" (the expense details) and a "target" (the expense category). The training process involved<br>
 
-Data Preparation: Transforming raw expense data into a format suitable for the model, including tokenisation and numerical encoding.<br>
+Data Preparation: <br>
+Transforming raw expense data into a format suitable for the model, including tokenisation and numerical encoding.<br>
 Model Architecture: A custom transformer model was built, incorporating self-attention mechanisms and feed-forward networks to learn complex relationships within the data.<br>
-Training Loop: Iteratively feeding the model training data, calculating the loss between predicted and actual categories, and updating the model's parameters using an optimiser. The model's performance was monitored on a separate validation set, and the best performing model checkpoint was saved.<br>
-Inference
+
+Training Loop: <br>
+Iteratively feeding the model training data, calculating the loss between predicted and actual categories, and updating the model's parameters using an optimiser. The model's performance was monitored on a separate validation set, and the best performing model checkpoint was saved.<br>
+
+Inference <br>
 While the training was conducted on a different environment, the trained model can be used for inference. An example of an inference output is provided above.
 
-Next Steps
+Next Steps <br>
 This expense classification model is currently undergoing further optimisation and refinement. We are actively working on improving its accuracy and efficiency. The goal is to productionise this model and make it accessible via an API for seamless integration into various financial applications. Future work will also involve exploring more advanced transformer architectures and potentially expanding the range of expense categories the model can identify.
