@@ -7,10 +7,14 @@ Accurately categorising expenses is crucial for financial tracking and analysis.
 Example:
 
 === Prompt ===
+
 Uber | Private taxi for sharon | £89.00 | Mastercard | 2025-03-03
 
 === Predicted Category ===
+
 Transportation
+
+
 How it Works
 The core of this classifier is a transformer model. It's trained on a dataset of expense records, learning to understand the patterns and relationships between the expense description, vendor, amount, payment method, and date, and its corresponding category.
 
