@@ -25,7 +25,7 @@ The model processes an input string containing all these details (e.g., "Uber | 
 
 
 Training <br>
-The model was trained using a dataset of expense records, where each record consisted of a "prompt" (the expense details) and a "target" (the expense category). The training process involved<br>
+The model was trained using a dataset of expense records, where each record consisted of a "prompt" (the expense details) and a "target" (the expense category).<br> The training process involved<br>
 
 Data Preparation: <br>
 Transforming raw expense data into a format suitable for the model, including tokenisation and numerical encoding.<br>
