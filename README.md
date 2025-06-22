@@ -9,7 +9,7 @@ Example:
 === Prompt ===
 Uber | Private taxi for sharon | £89.00 | Mastercard | 2025-03-03
 
-=== Predicted Category ===
+=== Predicted Category === <br>
 Transportation
 
 
