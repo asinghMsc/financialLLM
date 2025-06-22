@@ -21,7 +21,7 @@ The core of this classifier is a transformer model. It's trained on a dataset of
 
 The model processes an input string containing all these details (e.g., "Uber | Private taxi for sharon | £89.00 | Mastercard | 2025-03-03") and outputs the most probable expense category (e.g., "Transportation").
 
-(Note: The training and data preparation steps were performed outside of the provided Colab notebook for efficiency and are not directly included in the public repository for this version.)
+(Note: The data preparation and inference steps were performed outside of the provided Colab notebook for efficiency and are not directly included in the public repository for this version.)
 
 
 Training (Conceptual) <br>
