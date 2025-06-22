@@ -35,7 +35,7 @@ Training Loop: <br>
 Iteratively feeding the model training data, calculating the loss between predicted and actual categories, and updating the model's parameters using an optimiser. The model's performance was monitored on a separate validation set, and the best performing model checkpoint was saved.<br>
 
 Inference <br>
-While the training was conducted on a different environment, the trained model can be used for inference. An example of an inference output is provided above.
+While the inference was conducted on a different environment, the trained model can be used for inference. An example of an output is provided above.
 
 Next Steps <br>
 This expense classification model is currently undergoing further optimisation and refinement. We are actively working on improving its accuracy and efficiency. The goal is to productionise this model and make it accessible via an API for seamless integration into various financial applications. Future work will also involve exploring more advanced transformer architectures and potentially expanding the range of expense categories the model can identify.
