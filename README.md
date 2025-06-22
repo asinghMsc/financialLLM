@@ -27,9 +27,9 @@ The model processes an input string containing all these details (e.g., "Uber | 
 Training (Conceptual)
 The model was trained using a dataset of expense records, where each record consisted of a "prompt" (the expense details) and a "target" (the expense category). The training process involved<br>
 
-Data Preparation: Transforming raw expense data into a format suitable for the model, including tokenisation and numerical encoding.&lt;br>
+Data Preparation: Transforming raw expense data into a format suitable for the model, including tokenisation and numerical encoding.<br>
 Model Architecture: A custom transformer model was built, incorporating self-attention mechanisms and feed-forward networks to learn complex relationships within the data.<br>
-Training Loop: Iteratively feeding the model training data, calculating the loss between predicted and actual categories, and updating the model's parameters using an optimiser. The model's performance was monitored on a separate validation set, and the best performing model checkpoint was saved.&lt;br>
+Training Loop: Iteratively feeding the model training data, calculating the loss between predicted and actual categories, and updating the model's parameters using an optimiser. The model's performance was monitored on a separate validation set, and the best performing model checkpoint was saved.<br>
 Inference
 While the training was conducted on a different environment, the trained model can be used for inference. An example of an inference output is provided above.
 
