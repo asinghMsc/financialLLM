@@ -38,4 +38,9 @@ Inference <br>
 While the inference was conducted on a different environment, the trained model can be used for inference. An example of an output is provided above.
 
 Next Steps <br>
+
+* Add another metric other than classification loss
+* Compare with baseline model
+
+
 This expense classification model is currently undergoing further optimisation and refinement. The goal is to productionise this model and make it accessible via an API for seamless integration into various financial applications.
